@@ -1,0 +1,8 @@
+// 安装libevdev-dev库，用于处理linux上的输入设备事件
+sudo apt-get install libevdev-dev
+
+// 查看设备号
+ls -l /dev/input/by-path/
+
+// 状态机运行
+./build//state_machine_example --param params

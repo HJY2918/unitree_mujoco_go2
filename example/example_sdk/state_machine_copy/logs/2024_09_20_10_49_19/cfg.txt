@@ -1,0 +1,1 @@
+param_folder: "/home/liu/unitree_sdk2/example/state_machine_copy/params"

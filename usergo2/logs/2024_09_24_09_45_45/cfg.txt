@@ -1,0 +1,1 @@
+param_folder: "/home/hjy/MyprojectTest/unitree_mujoco/usergo2/"
