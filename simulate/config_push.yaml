@@ -1,5 +1,5 @@
 robot: "go2"  # Robot name, "go2", "b2", "b2w", "h1", "go2w"
-robot_scene: "scene.xml" # Robot scene ,  /unitree_robots/[robot]/scene.xml 
+robot_scene: "scene_push.xml" 
 
 domain_id: 1  # Domain id
 interface: "lo" # Interface 接口
@@ -13,4 +13,7 @@ print_scene_information: 1 # Print link, joint and sensors information of robot
 
 enable_elastic_band: 0 # Virtual spring band, used for lifting h1
 
-
+# 摆锤释放
+enable_pendulum: 1
+pendulum_release_time: 10.0
+pendulum_init_angle: 1.0

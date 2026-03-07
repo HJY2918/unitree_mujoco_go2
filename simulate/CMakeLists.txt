@@ -27,6 +27,13 @@ set(SIM_DEPENDENCIES
 add_executable(unitree_mujoco ${SIM_SRC} src/main.cc)
 target_link_libraries(unitree_mujoco  ${SIM_DEPENDENCIES})
 
+# ================= 新增：main_push 的可执行文件 =================
+# 假设 main_push.cc 放在 src/ 目录下。
+# 这里将编译出的程序命名为 unitree_mujoco_push，你可以根据需要修改这个名字。
+add_executable(unitree_mujoco_push ${SIM_SRC} src/main_push.cc)
+target_link_libraries(unitree_mujoco_push ${SIM_DEPENDENCIES})
+# ================================================================
+
 add_executable(test test/test_unitree_sdk2.cpp)
 target_link_libraries(test unitree_sdk2)
 
