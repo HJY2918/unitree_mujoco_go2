@@ -16,4 +16,4 @@ enable_elastic_band: 0 # Virtual spring band, used for lifting h1
 # 摆锤释放
 enable_pendulum: 1
 pendulum_release_time: 10.0
-pendulum_init_angle: 1.0
+pendulum_init_angle: 0.8
